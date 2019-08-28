@@ -35,6 +35,8 @@ bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-fac
 Send Messages to Topic 'daily_sales'
 {"timestamp_ms": "1530305100936", "store_id": "Hermitage - 1", "sales_total" :'1255.89'}
 
+You should see the message getting saved to Cassandra DB / table
+
 
 
  
