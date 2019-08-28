@@ -1,6 +1,8 @@
-Assumes the Kafka is installed from : https://kafka.apache.org/quickstart
-Spark is installed : https://medium.com/luckspark/installing-spark-2-3-0-on-macos-high-sierra-276a127b8b85
-Cassandra Installed : https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
+Assumes the you have installed the following:
+
+ Kafka is installed from : https://kafka.apache.org/quickstart
+ Spark is installed : https://medium.com/luckspark/installing-spark-2-3-0-on-macos-high-sierra-276a127b8b85
+ Cassandra Installed : https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
 
 
  This example uses Scala for Spark.
