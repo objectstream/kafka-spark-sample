@@ -39,8 +39,6 @@ On Terminal:
 
 3. You should see the message getting saved to Cassandra DB / table
 
-!![alt text](Screen Shot 2019-09-06 at 5.11.23 PM
-
 
 
 
