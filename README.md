@@ -1,10 +1,10 @@
-Assumes the you have installed the following:
+### Assumes the you have installed the following:
 
- Kafka is installed from : https://kafka.apache.org/quickstart
+ 1. Kafka is installed from : https://kafka.apache.org/quickstart
  
- Spark is installed : https://medium.com/luckspark/installing-spark-2-3-0-on-macos-high-sierra-276a127b8b85
+ 2. Spark is installed : https://medium.com/luckspark/installing-spark-2-3-0-on-macos-high-sierra-276a127b8b85
  
- Cassandra Installed : https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
+ 3. Cassandra Installed : https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
 
 
  This example uses Scala for Spark.
@@ -12,13 +12,14 @@ Assumes the you have installed the following:
 Open the POM.xml using IntelliJ or Eclipse
 
 Create Cassandra Table :
-CREATE TABLE "dg_store"."dg_daily_store_sales" (
+
+`CREATE TABLE "dg_store"."dg_daily_store_sales" (
 	 store_id text,
      timestamp_ms timestamp,
      timestamp_dt date,
      sales_total  text,
 	PRIMARY KEY (store_id)
-);
+);`
 
 Run the cassandra_sink.scala file from the intellij IDE
 
