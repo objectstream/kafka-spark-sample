@@ -17,14 +17,6 @@ class PersistSparkStreamRow extends ForeachWriter[org.apache.spark.sql.Row] {
     if (cassandraInstance == null) {
       cassandraInstance = new CassandraPersistor();
     }
-
-     /* .add("item_id",StringType)
-      .add("item_cost",FloatType)
-      .add("item_name",StringType)
-      .add("timestamp_ms",StringType)
-      .add("store_name",StringType)   */
-    // val i = '${record(1)}'.toInt
-
     
     cassandraInstance.connector.withSessionDo(session =>
       session.execute(s"""
