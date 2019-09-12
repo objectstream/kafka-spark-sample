@@ -1,3 +1,5 @@
+## Here is the article that mentions this : [Medium](https://medium.com/trending-information-technologies/stream-processing-17384a23111f)
+
 ### Assumes the you have installed the following:
 
  1. Kafka is installed from : https://kafka.apache.org/quickstart
